@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body {
+  font-family: "Alata", sans-serif !important;
+  background: #F8F9FA !important;
+}
+.main-wrapper{
+    font-family: 'Alata';
+    background: #F8F9FA !important;
+}
+
+/* styles for dashboard 3 page */
+.Dashboard3one-parent-sub {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    align-items: center;
+}
+
+.Dashboard3one-dropdown-container {
+    width: 200px; /* Adjust width as needed */
+}
+
+.Dashboard3one-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, -0.7) 0px 19px 38px, rgba(-2, 19, -6, 1.12) 4px 6px 1px;
+}
+
+/* Style the options if needed */
+.Dashboard3one-dropdown option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style the dropdown arrow */
+.Dashboard3one-dropdown::-ms-expand {
+    display: none;
+}
+
+.Dashboard3one-dropdown:after {
+    content: '\25BC'; /* Arrow character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.Dashboard3one-parent>h5 {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.Dashboard3one-sub {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 16px 15px;
+    align-items: center;
+    border-radius: 9px;
+}
+.Dashboard3one-sub:hover{
+    background: linear-gradient(to right, #313860 0%, #151928 100%);
+}
+.Dashboard3one-sub:hover .Dashboard3one-sub3{
+    background: linear-gradient(to right, #313860 0%, #232942 100%);
+}
+
+.Dashboard3one-sub:hover .Dashboard3one-sub2 h5{
+    color: #FFFFFF;
+} 
+.Dashboard3one-sub2 p
+.Dashboard3one-parent>.row {
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.Dashboard3one-sub3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #313860 0%, #151928 100%);
+}
+.SalesInvoice-cards:nth-child(1) {
+    background: linear-gradient(to bottom, #32823F 44%, #FFFFFF 100%);
+}
+
+.SalesInvoice-cards:nth-child(2) {
+    background: linear-gradient(to bottom, #FC4747 72%, #FFFFFF 100%);
+}
+
+.SalesInvoice-cards:nth-child(3),
+.SalesInvoice-cards:nth-child(4) {
+    background: #2D3748;
+}
+
+.Dashboard3one-sub1 h5{
+    font-size: 14px;
+    color: #A0AEC0;
+    font-weight: 500;
+    font-family: 'Alata';
+}
+
+.Dashboard3one-sub2 {
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.Dashboard3one-sub2 h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.Dashboard3one-sub2 h5,
+.Dashboard3one-sub2 p {
+    margin: 0;
+}
+.MonthlyInvoices-progress .progress{
+    height: 7px;
+    width: 125px;
+    margin-top: 12px;
+}
+.progress-bar{
+    background-color: #1c2430;
+}
+/* advt section */
+.advt-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Adds-content-sub h2 {
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 7px;
+    font-family: 'Alata';
+}
+.Adds-content-sub h5{
+    font-size: 15px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    color: #A0AEC0;
+}
+.Adds-content-sub p{
+    color: #A0AEC0;
+    font-weight: 400;
+}
+
+.Dashboard3two-parent {
+    margin: 20px 0px 10px 0px;
+    padding: 5px 20px;
+    position: relative;
+}
+.Dashboard3two-parent .row2{
+    align-items: center;
+    align-items: center;
+    background: #fff;
+    padding: 7px;
+    border-radius: 10px;
+}
+.radialbars-bg{
+    position: absolute;
+    z-index: 9999;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 25px;
+    left: 104px;
+}
+.ads-image {
+    height:212px;
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.ads-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Adds-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 140px;
+}
+.readMore-content.text-black {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.readMore-content p{
+    font-weight: 500;
+}
+.advt-banner-bg{
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Adds-content-sub-bg-2 {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Dashboard3two-parent .row1{
+    align-items: center;
+}
+.advt-banner-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.advt-banner-bg .readmore{
+    width: 22%;
+    color: #fff;
+}
+.advt-banner-content-sub{
+    width: 75%;
+}
+.advt-banner-content-sub h2{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.DashboardTransactions-parent{
+    padding:10px 20px;
+}
+.table tbody tr td,.table thead tr th{
+    padding: 12px 0px;
+    text-align: left;
+}
+.table thead tr th{
+    color: #A0AEC0;
+}
+.table tbody tr td{
+    font-size: 12px;
+}
+.Table-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0px 15px 0px;
+}
+.Table-title h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Table-title svg{
+    font-size: 18px;
+    color: #02cb02;
+    margin-top: 5px;
+}
+.DashboardTransactionsTable{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ash-Bank-Balance-sub1 h2,.ash-Bank-Balance-sub1 h3{
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.ash-Bank-Balance-sub1 h2{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.ash-Bank-Balance-sub1 h3{
+    font-size: 20px;
+}
+.ash-Bank-Balance-sub2{
+    height: 60px;
+    width: 60px;
+    border-radius: 6px;
+    padding: 9px;
+}
+.ash-Bank-Balance-sub2 img{
+    height: 100%;
+    width: 100%;
+}
+.Cash-Bank-Balance {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #313860 0%, #151928 100%);
+    color: #fff;
+}
+
+.copyrights {
+    padding: 20px 0px;
+}
+.copyrights span{
+    color: #C9900E;
+}
+
+/* styles for charts */
+.MonthlyInvoices h5{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.MonthlyInvoices h5,.MonthlyInvoices-sub1 h4{
+    font-weight: 500;
+}
+.MonthlyInvoices-sub1 h4{
+    font-size: 14px;
+}
+.MonthlyInvoices-mainparent {
+    display: flex;
+    gap: 50px;
+    margin: 15px 0px 10px 0px;
+}
+.NewSalesOverviewChart-parent{
+    padding:10px 20px;
+    font-family: 'Alata';
+}
+.NewSalesOverviewChart {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.MonthlyInvoices {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.MonthlyInvoices-sub2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.MonthlyInvoices-sub2 p{
+    color: #A0AEC0;
+}
+.MonthlyInvoices-sub-icon{
+    background-color: #1c2430;
+    height: 25px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.MonthlyInvoices-sub-icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.table-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Dropdown container */
+.table-menu-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content li{
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  /* Show the dropdown content on hover */
+    .dropdown-content {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+ 

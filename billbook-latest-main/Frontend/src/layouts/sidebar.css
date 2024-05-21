@@ -1,0 +1,125 @@
+/* sidebar newly added css */
+.dashboard-sidebar-image {
+    width: 150px;
+    height: 120px;
+    margin: auto;
+}
+.dashboard-sidebar-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.dashboard-sidebar-image-parent {
+    margin: 15px 0px 125px 0px;
+}
+.dashboard-sidebar-image-parent-sub-button{
+    display: flex;
+    justify-content: center;
+}
+.dashboard-sidebar-image-parent-sub-button button{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background:#feb019;
+    color: #fff;
+}
+.dashboard-sidebar-image-parent-sub {
+    text-align: center;
+}
+.dashboard-sidebar-settings-sub{
+    padding: 0px 25px 30px 25px;
+}
+.Sidebar-settings-link {
+    padding: 8px 25px;
+    margin-bottom: 3px;
+}
+.Sidebar-settings-link:hover a{
+    color: white;
+}
+.sidebar-dashboard-logoutbutton{
+    border-left: 3px solid #000;
+}
+.Sidebar-settings-link:hover{
+    background:linear-gradient(66deg, #b721ff 15.47%, #1904e5 84.37%);
+}
+.Sidebar-settings-link li a{
+    color: #000;
+}
+.sidebar-menu ul{
+    padding: 0 !important;
+}
+.sidebar-dashboard-logoutbutton{
+    padding: 10px 25px;
+    /* margin-bottom: 60px; */
+    background:linear-gradient(66deg, #b721ff 15.47%, #1904e5 84.37%);
+    color: white;
+}
+
+.sidebar-dashboard-logoutbutton li a{
+    color: #fff;
+}
+.sidebar-dashboard-logoutbutton li{
+    list-style: none;
+}
+.dashboard-settings-logout {
+    position:absolute;
+    bottom: 0;
+    background: #fff;
+    width:100%;
+    overflow: hidden;
+    /* margin-bottom: 20px; */
+}
+.sidebar .sidebar-menu>ul>li.active a::before {
+    background: linear-gradient(66deg, #b721ff 15.47%, #1904e5 84.37%) !important;
+    border-radius: 0px 20px 20px 0px;
+    width: 50px !important;
+    border-left: 5px solid #cac9c9;
+    /* border-left: 6px solid #f8ab04; */
+}
+
+/* Media Queries for side bar */
+@media only screen and (max-width:575px){
+    .sidebar .sidebar-menu > ul > li > a span{
+      font-size: 15px !important;
+    }
+    .sidebar-logout, .sidebar-settings, .Sidebar-settings-link span,.sidebar .sidebar-menu .menu-title {
+      font-size: 15px;
+  }
+  }
+  @media only screen and (min-width:576px) and (max-width:767px){
+    .sidebar .sidebar-menu > ul > li > a span{
+      font-size: 15px !important;
+    }
+    .sidebar-logout, .sidebar-settings, .Sidebar-settings-link span,.sidebar .sidebar-menu .menu-title {
+      font-size: 15px;
+  }
+  .sidebar{
+    width: 220px;
+  }
+  }
+  @media only screen and (min-width:768px) and (max-width:991px){
+    .Dashboardslide2-images-progressbar{
+      padding: 7px;
+    }
+    /* .dashboard-outdoor-creative-design .card .card-body .cord-body-div2 p,.dashboard-outdoor-creative-design .card .card-body .cord-body-div2 h2{
+      padding-left: 15px;
+    } */
+    .sidebar .sidebar-menu > ul > li > a span{
+      font-size: 15px !important;
+    }
+    .sidebar-logout, .sidebar-settings, .Sidebar-settings-link span,.sidebar .sidebar-menu .menu-title {
+      font-size: 15px;
+  }
+  .sidebar{
+    width: 240px;
+  }
+  #toggle_btn{
+    margin-left: 50px;
+  }
+  }
+  @media only screen and (min-width:992px) and (max-width:1199px){
+    #toggle_btn {
+      margin-left: 55px;
+    }
+  }

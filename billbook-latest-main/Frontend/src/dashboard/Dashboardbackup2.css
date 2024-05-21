@@ -1,0 +1,797 @@
+.Dashboardbackup2-sub1 {
+  padding-top: 0px;
+}
+
+.Dashboardbackup2-sub1-subparent {
+  height: fit-content;
+  width: 100%;
+  /* background-color: #4049FF; */
+  background: linear-gradient(66deg, #b721ff 15.47%, #1904e5 84.37%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+}
+
+.Dashboardbackup2-sub1-subparent-image {
+  height: 110px;
+  width: 130px;
+}
+
+.Dashboardbackup2-sub1-subparent-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Dashboardbackup2-sub3-content-text>p {
+  font-weight: 700;
+  /* padding-bottom: 5px; */
+  color: #000;
+}
+
+.Dashboardbackup2-sub1-subparent-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Dashboardbackup2-sub1-subparent-button button,
+.Dashboardbackup2-sub1-subparent-button-2 button {
+  border-radius: 45px;
+  background: #fff;
+  border: none;
+  padding: 7px 22px;
+  margin-top: 10px;
+}
+
+.Dashboardbackup2-sub1-subparent-content {
+  color: #fff;
+}
+
+.Dashboardbackup2-sub2-subparent {
+  background: #fff;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+}
+
+.Dashboardbackup2-sub2-subparent-image {
+  height: 26px;
+  width: 26px;
+}
+
+.Dashboardbackup2-sub2-subparent-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Dashboardbackup2-sub2-subparent-sub1 {
+  display: flex;
+  align-items: center;
+}
+
+.Dashboardbackup2-sub2-subparent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Dashboardbackup2-sub2-subparent {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.Dashboardbackup2-sub2 {
+  padding: 15px 0px;
+}
+
+.Dashboardbackup2-sub3-content-sub-price-reduced {
+  color: var(--Danger, #f5365c);
+  font-weight: 600;
+}
+
+.Dashboardbackup2-sub3-content-image,
+.Dashboardbackup2-sub3-content-image2,
+.Dashboardbackup2-sub3-content-image3,
+.Dashboardbackup2-sub3-content-image4 {
+  height: 47px;
+  border-radius: 50%;
+  width: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+}
+
+.Dashboardbackup2-sub3-content-image {
+  background: linear-gradient(141deg, #5e72e4 15.47%, #825ee4 84.37%);
+}
+
+.Dashboardbackup2-sub3-content-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Dashboardbackup2-sub3-content-sub {
+  display: flex;
+  gap: 10px;
+  /* padding-top: 8px; */
+}
+
+.Dashboardbackup2-sub3-content-sub-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Dashboardbackup2-sub3-content-sub-price {
+  color: var(--Success, #2dce89);
+  font-weight: 600;
+}
+
+.Dashboardbackup2-sub3-content {
+  background: #fff;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+}
+
+.Dashboardbackup2-sub3-content-text h6 {
+  padding: 5px 0px 10px 0px;
+  font-weight: 500;
+}
+
+.Dashboardbackup2-sub1-subparent-content p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.Dashboardbackup2-sub2-subparent-sub1 p,
+.Dashboardbackup2-sub2-subparent-sub2 p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+p.Dashboardbackup2-sub3-content-sub-day {
+  font-weight: 500;
+  color: #000;
+  font-size: 15px;
+}
+
+.Dashboardbackup2-sub3-content-image2 {
+  background: linear-gradient(141deg, #f5583d 15.47%, #f54351 84.37%);
+}
+
+.Dashboardbackup2-sub3-content-image3 {
+  background: linear-gradient(141deg, #2dcebc 15.47%, #2dce96 84.37%);
+}
+
+.Dashboardbackup2-sub3-content-image4 {
+  background: linear-gradient(141deg, #fb9c40 15.47%, #fb7b40 84.37%);
+}
+
+.Dashboardbackup2-parent {
+  padding: 0px 0px 12px 0px;
+}
+
+.Dashboard-slide-parent .card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* styles for dashboard backup 2 charts component */
+
+.Dashboardbackup2Chart1-parent-sub1 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+  height: 500px;
+}
+
+.Dashboardbackup2Chart1-parent-sub1-title {
+  padding: 15px 0px 5px 10px;
+}
+
+.Dashboardbackup2-first-chart {
+  margin-top: 30px;
+}
+
+.Dashboardbackup2chart2-sub2>.row {
+  align-items: center;
+  padding-block: 12px;
+}
+
+.Dashboardbackup2chart2-sub2-image {
+  height: 36px;
+  width: 36px;
+}
+
+.Dashboardbackup2chart2-sub2-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.Dashboardbackup2chart2-sub2-sub {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Dashboardbackup2chart2-sub2-sub p {
+  /* font-weight: 600; */
+  color: #000;
+}
+
+.Dashboardbackup2chart2-parent {
+  background: #fff;
+  padding: 10px 20px 25px 20px;
+  margin: 15px 0px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+}
+
+.Dashboardbackup2chart2-parent-title {
+  padding: 0px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.Dashboardbackup2chart2-sub2-sub-title {
+  font-weight: 600;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.Dashboardbackup2chart2-sub2 p {
+  color: #000;
+  font-size: 15px;
+}
+
+/* chartrs 3 component */
+
+.DashboardBackup2chart3-parent {
+  padding-top: 25px;
+}
+
+.DashboardBackup2chart3-sub-chart .card,
+.Dashboardbackup2Chart1-sub-chart .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+}
+
+.Dashboardbackup2-sub2-subparent-sub1 p,
+.Dashboardbackup2-sub2-subparent-sub2 p {
+  font-weight: 600;
+}
+
+.DashboardBackup2chart3-sub-chart .card-title,
+.Dashboardbackup2chart2-parent-title h4,
+.Dashboardbackup2Chart1-sub-chart .card-title {
+  font-weight: 600;
+}
+
+.page-wrapper .content {
+  padding: 25px;
+  /* background-image: linear-gradient(to top, #b1f4cf 0%,  #9890e3 100%); */
+  /* background-image: linear-gradient( 135deg, #773cf1 10%, #BC78EC 100%); */
+  /* background-image: linear-gradient(135deg, #0E197D 10%, #c9ab03 80%); */
+  /* background-image: linear-gradient(to top, #047a7a 0%, #212529 100%); */
+}
+
+.DashboardBackup2chart3-sub-chart .apexcharts-title-text {
+  font-weight: 600;
+}
+
+/* //indu -22-02-2024 */
+.dashboard-outdoor-creative-design .card {
+  background: linear-gradient(66deg, #b721ff 15.47%, #1904e5 84.37%);
+  border-radius: 10px;
+}
+
+.dashboard-outdoor-creative-design .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 35px 20px;
+  height: 206px;
+}
+
+.dashboard-outdoor-creative-design .card .card-body .cord-body-div2 h2 {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  font-size: 21px;
+}
+
+.dashboard-outdoor-creative-design .card .card-body .cord-body-div2 p {
+  color: white;
+  font-size: 17px;
+  padding: 13px 0px;
+}
+
+.dashboard-outdoor-creative-design .card .card-body .cord-body-div3 button {
+  color: #000;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px 29px;
+  border-radius: 10px;
+}
+
+.dashboard-outdoor-creative-design-image {
+  height: 95px;
+  width: 80px;
+}
+
+.dashboard-outdoor-creative-design-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+/* media queries for dashboard responsiveness */
+
+@media only screen and (max-width:575px) {
+
+  .Dashboardbackup2-sub3 .col-6.col-md-3,
+  .col-6.col-sm-3.col-md-3.dashboard-graph-pages-alert {
+    padding: 0;
+    width: 23%;
+    margin-left: 9px;
+  }
+
+  .Dashboard-slide-parent {
+    padding: 0 !important;
+  }
+
+  .Dashboardbackup2-parent {
+    padding: 0px 0px 12px 0px;
+  }
+
+  .Dashboardbackup2-sub3 .col-6.col-md-3,
+  .col-6.col-sm-3.col-md-3.dashboard-graph-pages-alert,
+  .Dashboardbackup2-sub2 .col-6.col-sm-4.col-md-4 {
+    width: 47%;
+    margin-left: 9px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  .Dashboardbackup2-sub3-content-sub-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .Dashboardbackup2chart2-parent {
+    display: none;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div2 h2 {
+    font-size: 18px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div2 p {
+    font-size: 14px;
+  }
+
+  .dashboard-outdoor-creative-design-image {
+    height: 80px;
+    width: 70px;
+  }
+
+  .Dashboardbackup2-sub3-content-text>p {
+    font-size: 13px;
+  }
+
+  .Dashboardbackup2-sub3-content-sub {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Dashboardbackup2-sub3-content {
+    padding: 18px 8px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body {
+    height: fit-content;
+  }
+
+  .Dashboardbackup2Chart1-sub-chart.radialbarchart .card {
+    height: 200px;
+    margin-bottom: 0;
+  }
+
+  .dashboard-graph-pages-alert .card .card-body h3 {
+    margin: 12px 0 -12px 12px !important;
+  }
+
+  .Dashboardbackup2-sub2-subparent {
+    padding: 15px 10px;
+    /* margin-bottom: 10px; */
+    width: 100%;
+  }
+
+  .col-md-5.Expenses-Overview {
+    margin-top: 10px;
+  }
+
+  .Dashboardbackup2-sub2 {
+    padding: 15px 0px 10px 0px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-image {
+    margin-left: -5px;
+    display: none;
+  }
+
+  .Dashboardbackup2-sub1-subparent-button button,
+  .Dashboardbackup2-sub1-subparent-button-2 button {
+    padding: 4px 12px;
+    font-size: 13px;
+  }
+
+  .Dashboardbackup2-sub1-subparent {
+    margin-bottom: 10px;
+  }
+
+  .Dashboardbackup2-sub1-subparent-content p {
+    font-size: 14px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body {
+    padding: 15px 20px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-sub1 p,
+  .Dashboardbackup2-sub2-subparent-sub2 p {
+    font-size: 12px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div3 button {
+    padding: 7px 20px;
+    font-size: 13px;
+  }
+
+  .sticky-sidebar {
+    width: 35px !important;
+  }
+
+  .sidebar-icons {
+    padding: 3px 0px !important;
+  }
+
+  .dashboard-outdoor-creative-design-image {
+    margin: auto;
+  }
+
+  .cord-body-div2.col-md-7 {
+    text-align: center;
+  }
+
+  .cord-body-div3.col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Dashboardslide2-images-progressbar-parent .Dashboard-progressbar h6 {
+    font-size: 14px !important;
+  }
+
+  .Dashboardslide2-images-progressbar {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.col-6.col-sm-4.col-md-12.range-bar-charts-parent {
+  padding-top: 10px;
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  .Dashboardbackup2-sub3-content-sub-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .Dashboardbackup2chart2-parent {
+    display: none;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div2 h2 {
+    font-size: 18px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div2 p {
+    font-size: 14px;
+  }
+
+  .dashboard-outdoor-creative-design-image {
+    height: 80px;
+    width: 70px;
+  }
+
+  .Dashboardbackup2-sub3 .col-6.col-md-3,
+  .col-6.col-sm-3.col-md-3.dashboard-graph-pages-alert {
+    width: 23%;
+    margin-left: 9px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  .Dashboardbackup2-sub3-content-text>p {
+    font-size: 13px;
+  }
+
+  .Dashboardbackup2-sub3-content-sub {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Dashboardbackup2-sub3-content {
+    padding: 18px 8px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body {
+    height: fit-content;
+  }
+
+  .Dashboardbackup2Chart1-sub-chart.radialbarchart .card {
+    height: 200px;
+  }
+
+  /* .col-6.col-sm-3.col-md-3.dashboard-graph-pages-alert {
+    padding: 0;
+    width: 47%;
+    margin-left: 9px;
+  } */
+
+  .dashboard-graph-pages-alert .card .card-body h3 {
+    margin: 12px 0 -3px 12px !important;
+  }
+
+  .Dashboardbackup2-sub2-subparent {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .Dashboardbackup2-sub2 {
+    padding: 15px 0px 20px 0px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-image {
+    margin-left: -5px;
+    display: none;
+  }
+
+  .Dashboardbackup2-sub1-subparent-button button,
+  .Dashboardbackup2-sub1-subparent-button-2 button {
+    padding: 4px 12px;
+    font-size: 13px;
+  }
+
+  .Dashboardbackup2-sub1-subparent {
+    margin-bottom: 10px;
+  }
+
+  .Dashboardbackup2-sub1-subparent-content p {
+    font-size: 14px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body {
+    padding: 15px 20px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-sub1 p,
+  .Dashboardbackup2-sub2-subparent-sub2 p {
+    font-size: 12px;
+  }
+
+  /* .Dashboardbackup2-sub2 .col-6.col-sm-4.col-md-4 {
+    padding: 0;
+    width: 47%;
+    margin-left: 9px;
+  } */
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div3 button {
+    padding: 7px 20px;
+    font-size: 13px;
+  }
+
+  .sticky-sidebar {
+    width: 35px !important;
+  }
+
+  .sidebar-icons {
+    padding: 3px 0px !important;
+  }
+
+  .dashboard-outdoor-creative-design-image {
+    margin: auto;
+  }
+
+  .cord-body-div2.col-md-7 {
+    text-align: center;
+  }
+
+  .cord-body-div3.col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Dashboardslide2-images-progressbar-parent .Dashboard-progressbar h6 {
+    font-size: 14px !important;
+  }
+
+  .Dashboardslide2-images-progressbar {
+    height: 30px;
+    width: 30px;
+  }
+
+  .Dashboardbackup2-sub3-content-image,
+  .Dashboardbackup2-sub3-content-image2,
+  .Dashboardbackup2-sub3-content-image3,
+  .Dashboardbackup2-sub3-content-image4 {
+    height: 40px;
+    width: 40px;
+    padding: 11px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .sidebar .sidebar-menu>ul>li>a span {
+    font-size: 15px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div3 button {
+    padding: 10px 20px;
+  }
+
+  p.dashboard-text1 {
+    text-align: right;
+  }
+
+  .sidebar .sidebar-menu>ul>li>a img {
+    width: 16px;
+  }
+
+  .sidebar .sidebar-menu>ul>li>a img,
+  .sidebar .sidebar-menu>ul>li>a svg {
+    margin-left: -5px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-sub1 p {
+    font-size: 15px !important;
+  }
+
+  .Dashboardbackup2-sub3-content-sub {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Dashboardbackup2-sub3-content-text>p {
+    font-size: 15px;
+  }
+
+  .Dashboardbackup2-sub1-subparent {
+    padding-block: 5px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .Dashboardbackup2-sub2-subparent-image img {
+    margin-left: -5px;
+  }
+
+  .Dashboardbackup2chart2-sub2 p {
+    font-size: 13px;
+  }
+
+  .Dashboardbackup2chart2-sub2-sub-title {
+    font-size: 14px;
+  }
+
+  .Dashboardbackup2chart2-parent-title h4 {
+    font-size: 20px;
+  }
+
+  .dashboard-outdoor-creative-design {
+    width: 100%;
+  }
+
+  .col-md-7.range-bar-charts-parent {
+    width: 100%;
+  }
+
+  .col-md-5.Expenses-Overview {
+    width: 75%;
+  }
+
+  .Dashboardbackup2-sub3-content-text>p {
+    font-weight: 500 !important;
+  }
+
+  .Dashboardbackup2-sub2-subparent-sub1 p,
+  .Dashboardbackup2-sub2-subparent-sub2 p {
+    font-weight: 500 !important;
+    font-size: 15px;
+  }
+
+  .Dashboardslide2-images-progressbar {
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .Dashboardbackup2chart2-sub2 p {
+    font-size: 14px;
+  }
+
+  .Dashboardbackup2-sub3-content-sub {
+    flex-direction: column;
+  }
+
+  .Dashboardbackup2-sub3-content-text>p {
+    letter-spacing: 1px;
+  }
+
+  .col-md-7.range-bar-charts-parent {
+    width: 80%;
+  }
+
+  .col-md-5.Expenses-Overview {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .row.dashboard-users-progess-report {
+    margin-top: -8px;
+  }
+
+  .Dashboardbackup2chart2-sub2 p {
+    font-size: 14px;
+  }
+
+  .Dashboardbackup2chart2-sub2-sub-title {
+    font-size: 15px;
+  }
+
+  .Dashboardbackup2chart2-parent-title {
+    font-size: 22px;
+  }
+
+  .Dashboardslide2-images-progressbar {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+  }
+
+  .dashboard-outdoor-creative-design .card .card-body .cord-body-div3 button {
+    padding: 10px 25px;
+    margin-left: -10px;
+  }
+
+  .col-6.col-sm-3.col-md-3.dashboard-graph-pages-alert {
+    padding: 4px;
+  }
+}
